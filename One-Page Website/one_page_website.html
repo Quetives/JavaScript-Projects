@@ -1,0 +1,140 @@
+<!Doctype html>
+<html lang="en">
+	<head>
+		<title>How to make a Squad | Monster Hunter World</title>
+		<meta charset="utf-8">
+		
+		<link rel="stylesheet" href="./CSS/one-page-website.css">
+	</head>
+	<body>
+	<center>
+		<nav class="topnav">
+			<a href="#home">Home</a> |
+			<a href="#info">Info</a> |
+			<a href="#tutorial">Tutorial</a> |
+			<a href="#join">Join</a>
+		</nav>
+		<div class="home">
+		<header>
+			<h1>All about squads in Monster Hunter World.</h1>			
+		</header>
+		</div>
+		
+		<main>
+			<div class="info">
+			<!-- Squad info -->
+				<h1>What is a squad?</h1>
+				<p>In Monster Hunter World, squads are player associations <br>
+					of up to 50 members, that allow players to gather at <br>
+					hubs to coordinate hunts with their friends.<br>
+
+					Players can also set specific messages among squads<br> 
+					to identify each other. The Squad's icon and name is<br> 
+					also displayed on all Squad Member Guild Cards.<br>
+					Each player can join up to 8 different squads, so <br>
+					you can coordinate with many friends and different <br>
+					groups based on your objectives</p>
+			<!-- end Squad info -->
+			</div>
+			
+			<div class="tutorial">
+			<!-- Intro/Tutorial -->
+				<h1> How to create your own squad.</h1>
+				<p>Team up with other players by making a squad today! <br>
+				The following video will guide you on how to create and <br>
+				invite members to your squad in Monster Hunter World!</p>
+				<iframe src="https://www.youtube.com/embed/Dzi5qqTefA0" height=400px; width=500px;></iframe><br>
+			<!-- end intro/Tutorial -->
+			</div>
+			
+			<div class="join">
+			<!-- Form for joining my squad -->
+				<h1>Join my squad by filling out the following form!</h1><br>
+				<form>
+					<div class="input">
+						Character Name:<br>
+						<input type="text" name="Character Name"><br>
+						Account Name:<br>
+						<input type="text" name="Account Name"><br>
+						Hunter Rank:<br>
+						<input type="text" name="Hunter Rank"><br>
+						Master Rank:<br>
+						<input type="text" name="Master Rank">
+					</div><br>
+					<div class="submit">
+					<input type="submit" value"Submit">
+					</div>
+				</form>
+			<!-- end form for joining squad -->
+			</div>
+			<p>See you out there Hunter!!</p>
+		
+		</main>
+	</center>
+
+		<div class="row">
+			<div class="column">
+				<img src="mhw.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="mhw_bg.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+			</div>
+		</div>
+
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+				<div class="mySlides">
+					<div class="numbertext">1 / 2</div>
+					<img src="mhw.jpg" style="width:100%;">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">2 / 2</div>
+					<img src="mhw_bg.jpg" style="width:100%;">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">2 / 2</div>
+					<img src="monster-hunter-world-iceborne-mhw-banbaro.jpg" style="width:100%;">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">2 / 2</div>
+					<img src="monster-hunter-world-iceborne-mhw-tigrex.jpg" style="width:100%;">
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				<div class="caption-container">
+					<p id="caption">Monster Hunter</p>
+				</div>
+
+				<div class="column">
+					<img class="demo" src="mhw.jpg" onclick="currentSlide(1)" alt="Hunt Together!">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="mhw_bg.jpg" onclick="currentSlide(2)" alt="Slay Dragons!">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="monster-hunter-world-iceborne-mhw-banbaro.jpg" onclick="currentSlide(3)" alt="Hunt Mighty Beasts!">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="monster-hunter-world-iceborne-mhw-tigrex.jpg" onclick="currentSlide(4)" alt="Survive Savage Monsters!">
+				</div>
+
+			</div>
+		</div>
+		
+		<footer>
+			<p>This is a footer.</p>
+		</footer>
+	
+	<script src="./JS/One_Page_Website.js"></script>
+	</body>
+</html>
